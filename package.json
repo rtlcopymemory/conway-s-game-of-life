@@ -1,0 +1,8 @@
+{
+  "name": "game-of-life",
+  "version": "1.0.0",
+  "description": "My personal implementation of game of life, done as practice",
+  "main": "index.js",
+  "author": "StackWolfed",
+  "license": "MIT"
+}

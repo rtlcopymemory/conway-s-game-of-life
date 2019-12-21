@@ -10,7 +10,7 @@ const state = Object.freeze({
 });
 
 function print_grid(ground) {
-  console.clear(); // TODO check if its working
+  console.clear();
   for (let i = 0; i < height; i++) {
     for (let j = 0; j < width; j++) {
       if (ground[i][j] === state.ALIVE) process.stdout.write(aliveSymbol);
